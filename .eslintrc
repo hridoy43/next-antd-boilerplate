@@ -1,0 +1,48 @@
+{
+  "extends": [
+    "wesbos"
+  ],
+  "rules": {
+    "no-console": 0,
+    "camelcase": "off",
+    "no-nested-ternary": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "endOfLine": "auto",
+        "singleQuote": true,
+        "printWidth": 120,
+        "tabWidth": 4
+      }
+    ],
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    ],
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ],
+        "paths": [
+          "."
+        ]
+      }
+    }
+  }
+}

@@ -120,3 +120,6 @@
     flex-direction: column;
   }
 }
+.shadowClass {
+  @apply shadow-md;
+}

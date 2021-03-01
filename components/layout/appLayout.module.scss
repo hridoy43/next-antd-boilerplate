@@ -1,0 +1,13 @@
+.appLayout {
+  background-color: rgb(255, 255, 255);
+  margin: 0px auto;
+  // max-width: 480px; //? for Mobile screen only
+  min-height: 100vh;
+  width: 100%;
+
+  .contentPage {
+    box-shadow: rgb(0 0 0 / 25%) 0px 2px 4px;
+    padding: 24px 24px 0px;
+    position: relative;
+  }
+}

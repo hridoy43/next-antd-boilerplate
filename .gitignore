@@ -32,3 +32,13 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+#local_config
+.vscode
+
+#lock-files
+package-lock.json
+yarn.lock
+
+#linter
+.eslintcache

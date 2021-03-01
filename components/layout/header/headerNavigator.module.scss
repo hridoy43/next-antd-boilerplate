@@ -1,0 +1,20 @@
+.headerWrapper {
+  max-width: inherit;
+  padding: 8px 24px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+  .headerIcon {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+
+    &:hover {
+      opacity: 0.8;
+    }
+    &:active {
+      opacity: 1;
+    }
+  }
+}
