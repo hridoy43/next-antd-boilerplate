@@ -1,11 +1,13 @@
 {
-  "name": "next-antd-boilerplate1",
-  "version": "0.1.0",
+  "name": "next-antd-boilerplate",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "cross-env NODE_OPTIONS=\"-r esm\" next",
+    "build": "cross-env NODE_OPTIONS=\"-r esm\" next build",
+    "start": "cross-env NODE_OPTIONS=\"-r esm\" next start",
+    "export": "cross-env NODE_OPTIONS=\"-r esm\" next export",
+    "lint": "eslint . --ext .js, .jsx, .ts, .tsx"
   },
   "dependencies": {
     "@ant-design/icons": "^4.5.0",

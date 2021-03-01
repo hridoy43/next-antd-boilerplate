@@ -36,9 +36,5 @@ yarn-error.log*
 #local_config
 .vscode
 
-#lock-files
-package-lock.json
-yarn.lock
-
 #linter
 .eslintcache
