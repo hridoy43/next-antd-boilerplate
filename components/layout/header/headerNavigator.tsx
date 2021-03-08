@@ -3,7 +3,7 @@ import { LogoutOutlined, ArrowLeftOutlined } from '@ant-design/icons';
 
 import styles from './headerNavigator.module.scss';
 
-const HeaderNavigator = (props) => (
+const HeaderNavigator = () => (
     <PageHeader
         ghost={false}
         style={{ background: `var(--primary-color)` }}
