@@ -8,8 +8,19 @@ module.exports = withAntdLess({
     // //optional https://github.com/webpack-contrib/css-loader#object
     // cssLoaderOptions: {},
 
-    // Other Config Here...
+    // // Other Config Here...
+    // future: {
+    //     webpack5: true,
+    // },
+
+    // Custom Webpack Config
     webpack(config) {
         return config;
     },
 });
+
+// module.exports = {
+//     future: {
+//         webpack5: true,
+//     },
+// };
