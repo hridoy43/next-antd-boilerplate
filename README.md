@@ -24,12 +24,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Features
 - [x] **Less Support** _(Zero config needed!)_ 😃<br>
 - [x] **Ant Design Theming Support** _(you can customize the theme from **styles/antd-variables.less** file. [Here][theme] you can find the default variable for theming.)_<br>
-- [x] **Mobile only layout** _(you have to enable it from **components/layout/appLayout.module.scss**) and also change the background-color from **styles/globals.less**_ 👍
-```css
-max-width: 480px; //components/layout/appLayout.module.scss
+- [x] **Mobile only layout** _(you have to enable it from **components/layout/appLayout.module.scss**) and also change the background-color from **styles/globals.less**_ 👍<br><br>
+    ```css
+    max-width: 480px; //components/layout/appLayout.module.scss
 
-background-color: rgb(23, 23, 23); //styles/globals.less
-```
+    background-color: rgb(23, 23, 23); //styles/globals.less
+    ```
 
 
 
