@@ -22,9 +22,9 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 <br><br>
 ## Features
-- [x] Less Support _(Zero config needed!)_ 😃<br>
-- [x] Ant Design Theming Support _(you can customize the theme from **styles/antd-variables.less** file. [Here][theme] you can find the default variable for theming.)_<br>
-- [x] Mobile only layout _(you have to enable it from **components/layout/appLayout.module.scss**)_ 👍
+- [x] **Less Support** _(Zero config needed!)_ 😃<br>
+- [x] **Ant Design Theming Support** _(you can customize the theme from **styles/antd-variables.less** file. [Here][theme] you can find the default variable for theming.)_<br>
+- [x] **Mobile only layout** _(you have to enable it from **components/layout/appLayout.module.scss**)_ 👍
 
 
 
