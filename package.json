@@ -1,6 +1,8 @@
 {
   "name": "next-antd-boilerplate",
   "version": "1.0.0",
+  "license": "MIT",
+  "author": "Wahiduzzaman Hridoy <hridoy43@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_OPTIONS=\"-r esm\" next",
