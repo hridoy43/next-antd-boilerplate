@@ -1,0 +1,22 @@
+.headerWrapper {
+  max-width: inherit;
+  padding: 8px 24px;
+  position: fixed !important;
+  width: 100%;
+  z-index: 1;
+}
+
+.headerWrapper .headerIcon {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.headerWrapper .headerIcon:hover {
+  opacity: 0.8;
+}
+
+.headerWrapper .headerIcon:active {
+  opacity: 1;
+}
+/*# sourceMappingURL=headerNavigator.module.css.map */
