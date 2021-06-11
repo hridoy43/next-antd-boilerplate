@@ -13,8 +13,8 @@ module.exports = withAntdLess({
     return config;
   },
 
-  // // NextFuture
-  // future: {
-  //     webpack5: true, //? currently next-plugin-antd-less is not supported with webpack5
-  // },
+  // NextFuture
+  future: {
+      webpack5: true, 
+  },
 });
