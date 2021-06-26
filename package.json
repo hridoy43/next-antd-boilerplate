@@ -9,10 +9,11 @@
     "build": "cross-env NODE_OPTIONS=\"-r esm\" next build",
     "start": "cross-env NODE_OPTIONS=\"-r esm\" next start",
     "export": "cross-env NODE_OPTIONS=\"-r esm\" next export",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "next lint"
   },
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
+    "@next/eslint-plugin-next": "^11.0.1",
     "antd": "^4.16.5",
     "babel-plugin-import": "^1.13.3",
     "babel-plugin-inline-import": "^3.0.0",
@@ -27,11 +28,9 @@
   "devDependencies": {
     "@types/react": "^17.0.11",
     "autoprefixer": "^10.2.6",
-    "babel-eslint": "^10.1.0",
     "eslint": "^7.29.0",
-    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-next": "^11.0.1",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-config-wesbos": "1.0.1",
     "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jsx-a11y": "^6.3.1",
